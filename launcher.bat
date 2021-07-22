@@ -104,12 +104,15 @@ GOTO DOWNLOAD
 IF NOT EXIST "%cd%\data\miner.exe" (
   ECHO Miner not found. Make sure to download the miner beforehand and to add the folder as an exception in your antivirus.
   ECHO Returning to the menu.
+  GOTO DOWNLOAD
 )
 IF EXIST "%cd%\workername.doppel" (
   for /F "tokens=*" %%a in (%cd%\workername.doppel) do (
     ECHO Attempting to run the executable.
-    ECHO Beginning the mining process under workername (%%a).
+    ECHO Beginning the mining process under workername %%a.
     .\data\miner.exe --algo ethash --server eth.2miners.com:2020 --user 0xb5c174e8061d8b4d355b5b1f64dd63f0f18c9deb.%%a
+    PAUSE
+    GOTO ENDOFFILE
   )
 ) ELSE (
   GOTO SETUSERNAME
