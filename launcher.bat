@@ -1,5 +1,5 @@
 @ECHO OFF
-ECHO Currently running launcher version 0.3. Downloaded from: https://github.com/DoppiePoppie/MommyMiner/releases/latest/
+ECHO Currently running launcher version 0.5. Downloaded from: https://github.com/DoppiePoppie/MommyMiner/releases/latest/
 ECHO Before closing the miner, make sure to save the logs to verify with Mommy later on.
 ECHO Make sure to add the folder to exceptions in your antivirus settings.
 ECHO Otherwise, the downloaded file may get flagged and removed before you know it.
