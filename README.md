@@ -27,5 +27,6 @@ Worker Name: This one's up to you but make sure it identifies you, so you can se
 - [ ] Multiple cryptocurrency support.
 - [ ] Automatic adding to startup.
 - [ ] Automatic self-update.
+- [ ] Linux support.
 
 And possibly more to come...
