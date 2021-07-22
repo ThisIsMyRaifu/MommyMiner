@@ -28,6 +28,8 @@ Worker Name: This one's up to you but make sure it identifies you, so you can se
 - [ ] Automatic adding to startup.
 - [ ] Automatic self-update.
 - [ ] Linux support.
+- [ ] Saving logs.
+- [ ] Using the logs to calculate the amount of crypto mined.
 
 And possibly more to come...
 
