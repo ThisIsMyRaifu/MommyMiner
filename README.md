@@ -30,3 +30,6 @@ Worker Name: This one's up to you but make sure it identifies you, so you can se
 - [ ] Linux support.
 
 And possibly more to come...
+
+# Sources
+[GMiner](https://github.com/develsoftware/GMinerRelease) - The software used for the mining process. Used primarily due to the open license and a small 0.65% fee.
